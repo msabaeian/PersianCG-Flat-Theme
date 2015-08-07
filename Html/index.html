@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>پرشین سی جی | آموز ش تخصصی کامپیوتر و طراحی وب</title>
+<script src="js/jquery-1.11.0.min.js"></script>
+
+<script>
+function slider(){
+	var cur = $(".cur");
+	var next = $(".cur").next();
+	if(!next.length){ next = $(".slider .slide:first-child"); }
+	cur.removeClass("cur");
+	next.addClass("cur");
+}
+	var dd = setInterval(slider,4000);
+</script>
+
+</head>
+
+<body>
+	<!-- START NAVIGATION -->
+	<nav>
+    	<div class="center">
+            <ul>
+                <a href="#"><li><h1>صفحه اصلی</h1></li></a>
+                <a href="#"><li><h1>انجمن</h1></li></a>
+                <a href="#"><li><h1>تماس با ما</h1></li></a>
+            </ul>
+            
+           	<section class="logo"><h3>آموزش تخصصی کامپیوتر | </h3>  <h2 style="font-size: 30px;">  پرشین سی جی</h2></section>
+		</div>
+    </nav>
+    <!-- END NAVIGATION -->
+    
+    <!-- START Slider & Boxes -->
+    <div class="center">
+    	<section class="slider-box">
+        	<section class="slider">
+            	<div class="slide cur"><p class="cur">آموزش برنامه نویسی اندروید با جاوا</p></div>
+				<div class="slide"><p>آموزش HTML</p></div>
+				<div class="slide"><p>آموزش ارتباط با سرور در B4A</p></div>
+				<div class="slide"><p>نظر سنجی؟!</p></div>
+            </section>
+            
+            <section class="boxes">
+            	
+                <a href="#">
+            	<div class="req">
+                	<div></div>
+                    <h4 style="padding-top:12px;">درخواست آموزش</h4>
+                    <h5>ضبط در کمترین زمان</h5>
+                </div>
+                </a>
+                
+                <a href="#">
+                <div class="getfree">
+                	<div></div>
+                    <h4 style="padding-top:12px;">دریافت رایگان</h4><br>
+                    <h5>آموزش ها را رایگان دریافت کنید</h5>
+                </div>
+                </a>
+                
+                <a href="#">
+                <div class="teach">
+                	<div></div>
+                    <h4 style="padding-top:12px;">تدریس در سایت</h4>
+                    <h5>آموزش های خود را شروع کنید</h5>
+                </div>
+                </a>
+                
+            </section>
+        </section>
+    </div>
+    <!-- END Slider & Boxes -->
+    
+    <!-- START CONTENT -->
+    	<div class="center">
+        	<section class="content">  
+                <section class="post">
+                	<header>
+                   <a href="#"><p class="title">محمد صبائیان در: آموزش برنامه نویسی اندروید</p></a><p align="left" style="line-height:46px; color:#fff; font-size:15px; margin-left:5px;">26/8/1378</p>
+                    </header>
+                    <article>
+                    <img src="images/slide2.jpg">
+                    	<p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیستری را برای طراحان رایانه ای و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                        </p>
+                        <br><br>
+                        <a href="#"><div class="more">ادامه</div></a>
+                    </article>
+                </section>
+                
+            </section>
+            
+            <aside>
+            	<header>
+                	<div></div>
+                    <p>آخرین مطالب</p>
+                </header>
+                <a href="#"><p>مرگ بر آمریکا</p></a>
+                <a href="#"><p>آموزش برنامه نویسی</p></a>
+            </aside>
+            
+             <aside>
+            	<header>
+                	<div></div>
+                    <p>آخرین مطالب</p>
+                </header>
+                <a href="#">مرگ بر آمریکا</p></a>
+                <a href="#"><p>آموزش برنامه نویسی</p></a>
+            </aside>
+        </div>
+    <!-- END CONTENT -->
+    
+    <!-- Footer -->
+    
+    <section class="footer">
+    	<p>طراحی شده توسط <a href="http://baloutgroup.ir/" target="_blank"> گروه بلوط </a></p>
+        <p> تمامی حقوق مطالب و آموزش ها محفوظ است. هرگونه کپی بردای بدون ذکر منبع و یا رکورد دوباره و پخش و فروش آنها حرام می باشد</p>
+        
+    </section>
+</body>
+</html>

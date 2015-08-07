@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*
+	PersianCG Flat Theme
+	Gold Color CSS
+	You don't have to copy this CSS file.
+*/
+input, textarea{border: 1px solid #F29D0F;}
+input:focus{border:1px solid #EE4935}
+nav{background:#F7B24D} nav ul li{background: #F4AC33;} nav ul li:hover{background: #D28E1D;} 
+.req{background: #F8C039;} .req div{background: url("../images/reqpng.png") no-repeat scroll center center #F6AB34;} .req:hover div{background: url("../images/reqpng.png") no-repeat scroll center center #D28E1D;}
+.getfree{background: #F8C039;} .getfree div{background: url("../images/pay.png") no-repeat scroll center center #F6AB34;} .getfree:hover div{background: url("../images/pay.png") no-repeat scroll center center #D28E1D;}
+.teach{background: #F8C039;} .teach div{background: url("../images/teach.png") no-repeat scroll center center #F6AB34;} .teach:hover div{background: url("../images/teach.png") no-repeat scroll center center #D28E1D;}
+aside{background: #F29D0F;}aside header{background: #E87E04;} aside header div{background: url("../images/page.png") no-repeat scroll right center #F29D0F;}
+.post{background: #E67F22;} .post article{background: #F2B250;} .post img{border:none;} .more{background: #E67F22;} .more:hover{background: #E66E1D;}
+.footer{background: #E6A845;}
+.author_box header{background:#E67F22;} .author_box{background:#F2B250;}
+.share_box{background:#F2B250;} .share_box header{background:#E67F22;}
+.pagination ul>li>a, .pagination ul>li>span{color: #E67E22;}

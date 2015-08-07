@@ -1,0 +1,59 @@
+#comments-wrap {padding: 0 30px 30px 30px;color:#242424;background:#fff;margin-top:20px;}
+.comments-navigation {margin: 0; font-size: 12px;}
+.comments-navigation a { margin-top: 10px; font-family:tahoma;}
+.comments-navigation .alignleft {float: left; margin: 0; padding: 0;}
+.comments-navigation .alignright {float: right; margin: 0; padding: 0;}
+h3#comments-number, h3.postcomment {padding-bottom: 0;font-size: 12px;color: #3d3d3d;line-height: 30px;}
+ol.commentlist { list-style:none; margin:20px 0 0 0; padding:0; text-indent:0; }
+ol.commentlist li { border:1px solid #BF392D; height:1%; margin:0 0 10px 0; padding:10px 10px 7px 57px; position:relative; }
+ol.commentlist li.alt { }
+ol.commentlist li.bypostauthor { }
+ol.commentlist li.byuser { }
+ol.commentlist li.comment-author-admin { }
+ol.commentlist li.comment { }
+ol.commentlist li div.comment-author { padding:0 170px 0 0; }
+ol.commentlist li div.vcard { font:bold 12px tahoma, Helvetica, sans-serif; line-height: 24px; padding-bottom: 5px; }
+ol.commentlist li div.vcard cite.fn { font-style:normal; }
+ol.commentlist li div.vcard cite.fn a.url { }
+ol.commentlist li div.vcard cite.fn a.url:hover { }
+ol.commentlist li div.vcard img.avatar { border:1px solid #BF392D; left:10px; position:absolute; top:10px; padding: 2px; }
+ol.commentlist li div.vcard img.avatar-32 { }
+ol.commentlist li div.vcard img.photo { }
+ol.commentlist li div.vcard span.says { }
+ol.commentlist li div.commentmetadata { }
+ol.commentlist li div.comment-meta { font:normal 12px tahoma, Helvetica, sans-serif; line-height: 24px; position:absolute; right:10px; text-align:right; top:10px; }
+ol.commentlist li div.comment-meta a { color:#aaa; text-decoration:none;color:#aaa; }
+ol.commentlist li div.comment-meta a:hover { color:#37badc; text-decoration:none; }
+ol.commentlist li p { font:normal 12px tahoma, Helvetica, sans-serif; line-height: 24px; margin:0 0 1em 0; }
+ol.commentlist li form p { margin: 0;}
+ol.commentlist li ul { font:normal 12px tahoma, Helvetica, sans-serif; list-style:square; line-height: 24px; margin:0 0 1em; padding:0; text-indent:0; }
+ol.commentlist li div.reply { font-size: 12px; }
+ol.commentlist li div.reply:hover { }
+ol.commentlist li div.reply a { color:#000; }
+ol.commentlist li ul.children { list-style:none; margin:1em 0 0; text-indent:0;}
+ol.commentlist li ul.children li { }
+ol.commentlist li ul.children li.alt { }
+ol.commentlist li ul.children li.bypostauthor { }
+ol.commentlist li ul.children li.byuser { }
+ol.commentlist li ul.children li.comment { }
+ol.commentlist li ul.children li.comment-author-admin { }
+ol.commentlist li ul.children li.depth-2 { margin:0 0 8px; }
+ol.commentlist li ul.children li.depth-3 { margin:0 0 8px; }
+ol.commentlist li ul.children li.depth-4 { margin:0 0 8px; }
+ol.commentlist li ul.children li.depth-5 { }
+ol.commentlist li ul.children li.odd { }
+ol.commentlist li.even { }
+ol.commentlist li.odd { }
+ol.commentlist li.parent { }
+ol.commentlist li.pingback { }
+ol.commentlist li.pingback.parent { }
+ol.commentlist li.pingback div.vcard { padding:0 170px 0 0; }
+ol.commentlist li.thread-alt { }
+ol.commentlist li.thread-even { }
+ol.commentlist li.thread-odd { }
+h3#respond {padding-bottom: 0;font-size: 18px;color: #3d3d3d;line-height: 30px;}
+#respond {padding: 25px 0 0 0;}
+#comments p.nocomments {padding: 0;}
+form#commentform input {margin-top: 10px; padding: 0 5px; width: 260px; height: 30px; background: #f5f5f5; border: 1px solid #BF392D;font-family:tahoma, Helvetica, sans-serif; font-size: 12px; color: #aaa; line-height: 20px;}
+form#commentform textarea {margin-top: 10px; padding: 5px; width: 340px; background: #f5f5f5; border: 2px solid #BF392D; overflow: auto;font-family: tahoma, Helvetica, sans-serif; font-size: 12px; color: #000; line-height: 22px;}
+form#commentform input#submit {width: 100px; color: #000;font-family:tahoma;}
